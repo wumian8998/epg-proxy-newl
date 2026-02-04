@@ -1,0 +1,22 @@
+{
+  "name": "epg-proxy-newl",
+  "version": "1.0.0",
+  "description": "High performance EPG proxy (Cloudflare Workers & Docker)",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "epg",
+    "proxy",
+    "docker"
+  ],
+  "author": "gujiangjiang",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
